@@ -75,4 +75,4 @@ pacstrap /mnt base base-devel
 echo '3.3 Настройка системы'
 genfstab -pU /mnt >> /mnt/etc/fstab
 
-arch-chroot /mnt sh -c "$(curl -fsSL git.io/arch2.sh)"
+arch-chroot /mnt sh -c "$(https://raw.githubusercontent.com/TANOBU/arch2018/master/arch2.sh)"
